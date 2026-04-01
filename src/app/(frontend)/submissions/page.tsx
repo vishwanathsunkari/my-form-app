@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic' // ← add this line
+
 import { getPayload } from 'payload'
 import config from '@payload-config'
 import { SubmissionsClient } from './SubmissionsClient'
