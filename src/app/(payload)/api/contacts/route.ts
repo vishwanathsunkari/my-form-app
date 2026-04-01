@@ -14,6 +14,7 @@ export async function POST(req: Request) {
         name: body.name,
         email: body.email,
         message: body.message,
+        status: 'new',
       },
     })
 
