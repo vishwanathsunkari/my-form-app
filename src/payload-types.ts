@@ -172,11 +172,11 @@ export interface Media {
 export interface Contact {
   id: number
   name: string
-  status: 'new' | 'read' | 'replied'
   email: string
   message: string
   updatedAt: string
   createdAt: string
+  status?: string | null
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
