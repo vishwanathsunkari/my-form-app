@@ -176,7 +176,7 @@ export interface Contact {
   message: string
   updatedAt: string
   createdAt: string
-  status?: string | null
+  status: string | null
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
